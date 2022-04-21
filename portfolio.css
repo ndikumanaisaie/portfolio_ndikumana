@@ -15,8 +15,6 @@ body {
   padding-top: 20px;
   height: 48px;
   width: 375px;
-  margin-left: 24px;
-  left: 0;
   border-radius: 0;
 }
 
@@ -24,9 +22,7 @@ body {
   margin-right: 24px;
   height: 12px;
   width: 18px;
-  left: 3px;
-  top: 6px;
-  font-weight: 700;
+  font-weight: 700px;
   color: rgb(96, 112, 255);
 }
 
@@ -36,6 +32,7 @@ body {
   font-weight: bold;
   line-height: 20px;
   letter-spacing: 0;
+  margin-left: 24px;
   color: rgb(96, 112, 255);
 }
 
@@ -47,7 +44,7 @@ body {
   height: 718px;
   width: 375px;
   background-image: url("/images/header-shapes\ mobile@2x.svg");
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(227, 21, 21);
 }
 
 .connect {
@@ -112,4 +109,14 @@ body {
 
 .social-media ul li a:hover {
   background-color: rgb(155, 155, 237);
+}
+
+.card-work {
+  margin-top: 40px;
+  border: 2px solid blue;
+  height: 552px;
+  width: 327px;
+  border-radius: 16px;
+  padding: 16px;
+  background: rgb(255, 255, 255);
 }
