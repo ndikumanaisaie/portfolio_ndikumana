@@ -8,20 +8,73 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  height: 48px;
+  width: 375px;
+  margin-left: 24px;
+  left: 0;
+  border-radius: 0;
+}
+
+.top-nav .normal-button {
+  margin-right: 24px;
+  height: 12px;
+  width: 18px;
+  left: 3px;
+  top: 6px;
+  font-weight: 700;
+  color: rgb(96, 112, 255);
+}
+
+.top-nav .logo-placeholder {
+  font-size: 18px;
+  font-weight: 700px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: rgb(96, 112, 255);
+}
+
+.top-nav .logo-placeholder a {
+  text-decoration: none;
+}
+
+.header-background-mobile {
+  height: 718px;
+  width: 375px;
+  background-image: url("/images/header-shapes\ mobile@2x.svg");
+  border: 2px solid rgb(255, 255, 255);
+}
+
 .connect {
   margin-left: 24px;
 }
 
 .connect p {
   font-weight: 500px;
-  color: rgb(0, 0, 255);
   font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgb(0, 0, 255);
 }
 
 .primary-text {
   height: 150px;
   width: 327px;
-  margin: 140px 24px 0 24px;
+  margin: 120px 24px 0 24px;
+}
+
+.primary-text h1 {
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 .primary-text2 {
@@ -32,39 +85,31 @@ body {
 
 .primary-text2 p {
   font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
-.header-background-mobile {
-  height: 718px;
-  width: 375px;
+.social-media ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.logo-placeholder {
-  margin-left: 24px;
+.social-media ul li {
+  float: left;
 }
 
-.app-bar {
-  background-image: url("/images/header-shapes\ mobile@2x.svg");
-  height: 800px;
-  width: 375px;
+/* stylelint-disable-next-line no-descending-specificity */
+.social-media ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.social-media {
-  display: flex;
-  flex-direction: row;
-  width: 142px;
-  justify-content: space-around;
-  margin-left: 24px;
-}
-
-.toolbar {
-  position: relative;
-}
-
-.toolbar .normal-button {
-  position: absolute;
-  text-align: right;
-  right: 24px;
-  top: -3px;
-  margin-top: 0;
+.social-media ul li a:hover {
+  background-color: rgb(0, 0, 255);
 }
