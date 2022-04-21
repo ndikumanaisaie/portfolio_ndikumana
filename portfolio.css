@@ -3,8 +3,9 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  font-family:  'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .connect {
@@ -13,7 +14,7 @@ body {
 
 .connect p {
   font-weight: 500px;
-  color:blue;
+  color: rgb(0, 0, 255);
   font-size: 24px;
 }
 
@@ -21,33 +22,28 @@ body {
   height: 150px;
   width: 327px;
   margin: 140px 24px 0 24px;
-
 }
 
 .primary-text2 {
   height: 146px;
   width: 327px;
   margin: 2px 24px 0 24px;
-
 }
 
-.primary-text2 p{
+.primary-text2 p {
   font-weight: 400px;
 }
 
 .header-background-mobile {
   height: 718px;
   width: 375px;
-  left: 0px;
-  top: 0px;
-
 }
 
-.logo-placeholder{
+.logo-placeholder {
   margin-left: 24px;
 }
 
-.app-bar{
+.app-bar {
   background-image: url("/images/header-shapes\ mobile@2x.svg");
   height: 800px;
   width: 375px;
@@ -57,7 +53,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 142px;
-  justify-content:space-around;
+  justify-content: space-around;
   margin-left: 24px;
 }
 
@@ -66,7 +62,7 @@ body {
 }
 
 .toolbar .normal-button {
-  position:absolute;
+  position: absolute;
   text-align: right;
   right: 24px;
   top: -3px;
