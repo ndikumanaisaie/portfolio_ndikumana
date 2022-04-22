@@ -8,7 +8,8 @@ in web development.
 
 ## Built With
 
-- html and css
+- html 
+- css
 
 ## Live Demo (if available)
 
