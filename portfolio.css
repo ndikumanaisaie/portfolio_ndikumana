@@ -352,6 +352,11 @@ body {
   top: 3px;
 }
 
+.frame12 .language .down-angle {
+  position: relative;
+  right: -143px;
+}
+
 .frame12 .language-list li a {
   text-decoration: none;
 }
@@ -396,6 +401,16 @@ body {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border-bottom: 2px solid rgb(205, 205, 205);
+}
+
+.frame12 ul .my-work .framework .greater-than {
+  position: relative;
+  right: -142px;
+}
+
+.frame12 ul .my-work1 .skills .greater-than {
+  position: relative;
+  right: -200px;
 }
 
 .top .connect {
