@@ -35,7 +35,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- microverse team, coding patners and mentor.
+- microverse team, coding patners and mentor code reviewers.
 
 
 ## 📝 License
