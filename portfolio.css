@@ -375,12 +375,20 @@ body {
   overflow: hidden;
 }
 
-.frame12 .my-work {
+.frame12 ul .my-work {
   margin-top: 200px;
   margin-bottom: 20px;
+  height: 50px;
+  width: 327px;
+  border-radius: 0;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(205, 205, 205);
 }
 
-.frame12 .my-work li {
+.frame12 ul .my-work1 {
+  position: relative;
   height: 50px;
   width: 327px;
   border-radius: 0;
