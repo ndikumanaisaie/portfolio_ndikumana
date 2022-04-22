@@ -2,7 +2,8 @@
 
 # Hallo microverse
 
-> Description the project.
+> This is my personal portfolio, it includes the experience and skills i have
+in web development.
 
 
 ## Built With
@@ -34,7 +35,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- microverse team
+- microverse team, coding patners and mentor.
 
 
 ## 📝 License
