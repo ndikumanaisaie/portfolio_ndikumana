@@ -8,7 +8,8 @@ in web development.
 
 ## Built With
 
-- html and css
+- html 
+- css
 
 ## Live Demo (if available)
 
@@ -35,7 +36,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- microverse team, coding patners and mentor.
+- microverse team, coding patners and mentor code reviewers.
 
 
 ## 📝 License
