@@ -49,6 +49,8 @@ body {
   height: 718px;
   width: 375px;
   background-image: url("./images/header-shapes-mobile.svg");
+  border: 2px solid rgb(186, 185, 185);
+  background-image: url("./images/header-shapes-mobile.svg");
   border: 2px solid rgb(154, 152, 152);
 }
 
