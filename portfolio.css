@@ -48,8 +48,10 @@ body {
 .header-background-mobile {
   height: 718px;
   width: 375px;
-  background-image: url("/images/header-shapes\ mobile@2x.svg");
+  background-image: url("./images/header-shapes-mobile.svg");
   border: 2px solid rgb(186, 185, 185);
+  background-image: url("./images/header-shapes-mobile.svg");
+  border: 2px solid rgb(154, 152, 152);
 }
 
 .connect {
@@ -146,7 +148,7 @@ body {
   border-radius: 0;
 }
 
-.h1 {
+.h2 {
   height: 36px;
   width: 200px;
   font-size: 32px;
@@ -194,7 +196,7 @@ body {
 .frame1 img {
   height: 8px;
   width: 8px;
-  border-radius: 90px;
+  border-radius: 120px;
   align-self: center;
   background: rgb(193, 199, 208);
 }
@@ -283,7 +285,7 @@ body {
 }
 
 .about .skill-list {
-  height: 464.14678955078125px;
+  height: 464px;
   width: 327px;
   padding: 24px 12px;
 }
@@ -296,20 +298,20 @@ body {
   width: 29px;
   font-size: 12px;
   font-weight: 500px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 15px;
+  letter-spacing: 0.02em;
   text-align: center;
   color: rgb(96, 112, 255);
 }
 
 .frame12 {
   height: 320.14678955078125px;
-  width: 300px;
+  width: 302px;
 }
 
 .frame12 li {
   text-align: left;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
   height: 24px;
   width: 89px;
   border-radius: 8px;
@@ -331,8 +333,9 @@ body {
 
 .frame12 .language {
   margin-bottom: 12px;
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: bold;
+  font-weight: 500px;
 }
 
 /* .frame12 .language span .down-angle {
@@ -403,7 +406,7 @@ body {
   border-bottom: 2px solid rgb(205, 205, 205);
 }
 
-.frame12 ul .my-work .framework .greater-than {
+.frame12 ul .my-work .frameworks .greater-than {
   position: relative;
   right: -142px;
 }
@@ -428,7 +431,6 @@ body {
 
 .top .action {
   width: 200px;
-  margin-bottom: 0;
 }
 
 .top .action p {
@@ -437,5 +439,5 @@ body {
 
 .top .primary1 {
   margin-top: 62px;
-  margin-bottom: 12px;
+  margin-bottom: 13px;
 }
