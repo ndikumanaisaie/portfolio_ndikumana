@@ -336,11 +336,6 @@ body {
   font-weight: 500px;
 }
 
-/* .frame12 .language span .down-angle {
-  position: relative;
-  right: 0;
-} */
-
 .frame12 .language-list li span {
   position: relative;
   top: -18px;
@@ -439,3 +434,126 @@ body {
   margin-top: 62px;
   margin-bottom: 13px;
 }
+
+/* contact form styles starts from here */
+.contact-me {
+  height: 779px;
+  width: 375px;
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+  border-top-left-radius: 80px;
+  background: rgb(96, 112, 255);
+  background-image: url(./images/contact-form-shapes-mobile.svg);
+  background-position: right 0% bottom 45%;
+  background-repeat: no-repeat;
+}
+
+.contact-me h2 {
+  height: 56px;
+  width: 350px;
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: white;
+}
+
+.contact-me p {
+  height: 102px;
+  width: 327px;
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 70px;
+  color: rgb(235, 235, 255);
+}
+
+.contact-me form {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 327px;
+}
+
+.contact-me form .text2 {
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 400px;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgb(23, 43, 77);
+  border: 1px solid rgb(207, 216, 220);
+}
+
+.contact-me form .email {
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 400px;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgb(23, 43, 77);
+  border: 1px solid rgb(207, 216, 220);
+}
+
+.contact-me form .message {
+  height: 170px;
+  width: 327px;
+  border-radius: 8px;
+  border: 1px solid rgb(207, 216, 220);
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgb(180, 187, 197);
+}
+
+.contact-me form .submit {
+  height: 48px;
+  width: 140px;
+  border-radius: 8px;
+  padding: 12px;
+  padding: 12px, 16px, 12px, 16px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgb(96, 112, 255);
+  border: 1px solid rgb(207, 216, 220);
+  background: rgb(255, 255, 255);
+}
+
+.contact-me form .submit:hover {
+  background: rgb(96, 112, 255);
+  color: rgb(255, 255, 255);
+}
+
+.contact-me .bottom-rule {
+  height: 5px;
+  width: 134px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(13, 21, 30);
+}
+
+/* End of contact me section */
