@@ -48,7 +48,7 @@ body {
 .header-background-mobile {
   height: 718px;
   width: 375px;
-  background: url("./images/header-shapes-mobile.svg");
+  background-image: url("./images/header-shapes-mobile.svg");
   border: 2px solid rgb(154, 152, 152);
 }
 
@@ -446,7 +446,7 @@ body {
   text-align: center;
   border-top-left-radius: 80px;
   background: rgb(96, 112, 255);
-  background-image: url("./images/contact-form-shapes-mobile.svg");
+  background: url("./images/contact-form-shapes-mobile.svg");
   background-position: right 0% bottom 45%;
   background-repeat: no-repeat;
 }
