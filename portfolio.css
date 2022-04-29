@@ -602,7 +602,6 @@ h1 {
 }
 
 /* top navigation styles for desktop */
-
 @media only screen and (min-width: 768px) {
   .normal-button {
     display: none;
@@ -1253,5 +1252,3 @@ h1 {
 }
 
 /* end of styles for desktop version */
-
-/* styles for mobile version */
