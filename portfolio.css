@@ -601,6 +601,7 @@ h1 {
   background: rgb(13, 21, 30);
 }
 
+
 /* top navigation styles for desktop */
 
 @media only screen and (min-width: 768px) {
@@ -1255,3 +1256,5 @@ h1 {
 /* end of styles for desktop version */
 
 /* styles for mobile version */
+
+

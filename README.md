@@ -10,6 +10,7 @@ in web development.
 
 - html 
 - css
+- media queries
 
 ## Live Demo (if available)
 
