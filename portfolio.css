@@ -809,7 +809,7 @@ h1 {
   .frame1 {
     display: flex;
     flex-direction: row;
-    margin-top: -50px;
+    margin-top: -20px;
     margin-left: -24px;
     margin-bottom: 10px;
     height: 46px;
