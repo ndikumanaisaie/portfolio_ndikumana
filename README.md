@@ -21,8 +21,8 @@ no live demo
 👤 **Author1**
 
 - GitHub: [gitHub](https://github.com/ndikumanaisaie)
-- Twitter: [twitter](https://twitter.com/Ndikumana)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/ndikumana isaie)
+- Twitter: [twitter](https://twitter.com/Ndikuma38670724)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
 
 
