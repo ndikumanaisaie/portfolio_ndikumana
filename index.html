@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="portfolio.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    <title>Mobile portfolio skeleton</title>
+    <title>Responsive portfolio</title>
   </head>
   <body>
     <header class="header">
@@ -17,23 +18,26 @@
         <div class="logo-placeholder">
           <a href="#"><span class="my-logo">My logo</span></a>
         </div>
+        <!-- for large screen -->
+        <div class="menu">
+          <a href="#"><span class="my-logo">Portfolio</span></a>
+          <a href="#"><span class="my-logo">About</span></a>
+          <a href="#"><span class="my-logo">Contact</span></a>
+        </div>
+        <!-- for smaller screens -->
         <div class="normal-button">
           <a href="#"><img src="./images/Union.svg" alt="more" /></a>
         </div>
       </nav>
-    </header>
-    <div class="header-background-mobile">
-      <div class="primary-text">
-        <h1>I'm ndikumana Isaie to see you</h1>
-      </div>
-      <div class="primary-text2">
-        <p>
-          I am a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, do not hestiate to contact
-          me.
-        </p>
-      </div>
+    <!-- mobile home section -->
+    <div class="header-background">
+      <h1 class="primary-text">I'm ndikumana <br>Isaie to see you</h1>
+      <p class="primary-text2">
+        I am a software developer! I can help you build a product , feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, do not hestiate to contact
+        me.
+      </p>
       <div class="connect">
         <p>Let's connect</p>
       </div>
@@ -67,6 +71,125 @@
         </ul>
       </div>
     </div>
+  </header>
+    <!-- end of mobile home section -->
+
+    <!-- work section for desktop version -->
+    <section class="work1">
+      <div class="card-work">
+        <div class="card-image">
+          <img src="./images/Snapshoot-Portfolio.png" alt="card-work">
+        </div>
+        <div class="left-block">
+          <h2 class="h2">Tonic</h2>
+          <div class="frame1">
+            <p class="c">conopy</p>
+            <img src="./images/Counter.png" alt="">
+            <p class="p1">Back End Dev</p>
+            <img src="./images/Counter.png" alt="">
+            <p class="p1">2020</p>
+          </div>
+          <p class="primary1">
+            A daily selection of privately personalized reads; 
+            no accounts or sign-ups required.
+          </p>
+          <ul>
+            <li class="html"><a href="#">html</a></li>
+            <li class="css"><a href="#">css</a></li>
+            <li class="javascript"><a href="#">javascript</a></li>
+          </ul>
+          <p class="action">See Project</p>
+        </div>
+      </div>
+      <div class="card-work">
+        <div class="left-block">
+          <h2 class="h2">
+            Multi-Post
+            Stories
+          </h2>
+          <div class="frame1">
+            <p class="c">FACEBOOK</p>
+            <img src="./images/Counter.png" alt="">
+            <p class="p1">Back End Dev</p>
+            <img src="./images/Counter.png" alt="">
+            <p class="p1">2020</p>
+          </div>
+          <p class="primary1">
+            Experimental content creation feature that allows users to 
+            add to an existing story over the course of a day without 
+            spamming their friends.
+          </p>
+          <ul>
+            <li><a href="#">html</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">javascript</a></li>
+          </ul>
+          <p class="action">See Project</p>
+        </div>
+        <div class="card-image">
+          <img src="./images/Snapshoot-Portfolio1.png" alt="card-work">
+        </div>
+      </div>
+      <div class="card-work">
+        <div class="card-image">
+          <img src="./images/Snapshoot-Portfolio2.png" alt="card-work">
+        </div>
+        <div class="left-block left-block1">
+          <h2 class="h2">
+            Facebook 360
+          </h2>
+          <div class="frame1">
+            <p class="c">FACEBOOK</p>
+            <img src="./images/Counter.png" alt="">
+            <p class="p1">Full Stack Dev</p>
+            <img src="./images/Counter.png" alt="">
+            <p class="p1">2020</p>
+          </div>
+          <p class="primary1">
+            Exploring the future of media in Facebook's first Virtual Reality app; 
+            a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <ul>
+            <li><a href="#">html</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">javascript</a></li>
+          </ul>
+          <p class="action action1">See Project</p>
+          <img class="hand-cursor" src="/images/hand-cursor.png" alt="">
+        </div>
+      </div>
+      <div class="card-work">
+        <div class="left-block">
+          <h2 class="h2">
+            Uber Navigation
+          </h2>
+          <div class="frame1">
+            <p class="c">Uber</p>
+              <img src="./images/Counter.png" alt="">
+            <p class="p1 pp1">Lead Developer</p>
+              <img src="./images/Counter.png" alt="">
+            <p class="p1">2018</p>
+          </div>
+          <p class="primary1">
+            A smart assistant to make driving more safe, efficient, 
+            and fun by unlocking your most expensive computer: your car.
+          </p>
+          <ul>
+            <li><a href="#">html</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">javascript</a></li>
+          </ul>
+          <p class="action">See Project</p>
+        </div>
+        <div class="card-image">
+          <img src="./images/Snapshoot-Portfolio3.png" alt="card-work">
+        </div>
+      </div>
+    </section>
+    <!-- End of work section for desktop version -->
+
+
+    <!-- Work section for mobile version -->
     <section class="work">
       <div class="card-work">
         <div class="card-image">
@@ -90,9 +213,7 @@
             <li><a href="#">css</a></li>
             <li><a href="#">javascript</a></li>
           </ul>
-          <div class="action">
-            <p>See Project</p>
-          </div>
+          <p class="action">See Project</p>
         </div>
       </div>
       <div class="card-work">
@@ -117,9 +238,7 @@
             <li><a href="#">css</a></li>
             <li><a href="#">javascript</a></li>
           </ul>
-          <div class="action">
-            <p>See Project</p>
-          </div>
+          <p class="action">See Project</p>
         </div>
       </div>
       <div class="card-work">
@@ -144,9 +263,7 @@
             <li><a href="#">css</a></li>
             <li><a href="#">javascript</a></li>
           </ul>
-          <div class="action">
-            <p>See Project</p>
-          </div>
+          <p class="action">See Project</p>
         </div>
       </div>
       <div class="card-work">
@@ -171,12 +288,13 @@
             <li><a href="#">css</a></li>
             <li><a href="#">javascript</a></li>
           </ul>
-          <div class="action">
-            <p>See Project</p>
-          </div>
+          <p class="action">See Project</p>
         </div>
       </div>
     </section>
+    <!-- End of Work section for mobile version -->
+
+    <!-- about section for mobile version -->
     <section class="about">
       <div class="top">
         <h2 class="h2">About Myself</h2>
@@ -220,17 +338,13 @@
             </li>
           </ul>
         </div>
-        <div class="action">
-          <p>Get my Resume</p>
-        </div>
+        <p class="action">Get my Resume</p>
       </div>
       <div class="skill-list">
         <div class="frame12">
           <div class="language">
             <span class="text">Languages</span>
-            <span class="down-angle"
-              ><i class="fa-solid fa-angle-down"></i
-            ></span>
+            <span class="down-angle"><i class="fa-solid fa-angle-down"></i></span>
           </div>
           <ul>
             <li>
@@ -259,34 +373,27 @@
               </div>
             </li>
             <li class="my-work">
-              <div class="frameworks">
-                <span>Frameworks</span>
-                <span class="greater-than"
-                  ><i class="fa-solid fa-angle-right"></i
-                ></span>
-              </div>
+              <span>Frameworks</span>
+              <span class="greater-than"><i class="fa-solid fa-angle-right"></i></span>
             </li>
             <li class="my-work1">
-              <div class="skills">
-                <span>skills</span>
-                <span class="greater-than"
-                  ><i class="fa-solid fa-angle-right"></i
-                ></span>
-              </div>
+              <span>skills</span>
+              <span class="greater-than"><i class="fa-solid fa-angle-right"></i></span>
             </li>
           </ul>
         </div>
       </div>
     </section>
+    <!-- end of about section for mobile version -->
 
-    <!-- Contact form starts here -->
+    <!-- Contact section for desktop version -->
     <footer class="contact-section">
       <div class="contact-me">
         <h2>contact me</h2>
         <p>
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I`d love to help
-          with it
+          If you have an application you are interested in developing,
+          a feature that you need built or a project that needs coding. 
+          I`d love to help with it 
         </p>
         <form action="https://formspree.io/f/mrgjopne" class="form1" method="POST">
           <input
@@ -317,8 +424,10 @@
           ></textarea>
           <input class="submit" type="submit" value="Get In Touch" />
         </form>
-        <div class="bottom-rule"></div>
+        <div class="bottom-rule">
+        </div>
       </div>
     </footer>
+    <!-- End of contact section for desktop version and contact mobile section-->
   </body>
 </html>
