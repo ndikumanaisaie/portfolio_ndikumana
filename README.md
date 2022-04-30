@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hallo microverse
+# My portfolio
 
 > This is my personal portfolio, it includes the experience and skills i have
-in web development.
+in web development. it is responsive website that can adapt to any screen size
 
 
 ## Built With
@@ -20,10 +20,9 @@ no live demo
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/ndikumanaisaie)
-- Twitter: [@twitterhandle](https://twitter.com/Ndikumana)
+- GitHub: [gitHub](https://github.com/ndikumanaisaie)
+- Twitter: [twitter](https://twitter.com/Ndikumana)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ndikumana isaie)
-- [![alt text][1.1]][1]
 
 
 
@@ -38,7 +37,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- microverse team, coding patners and mentor code reviewers.
+- microverse team, coding patners, mentor and code reviewers.
 
 
 ## 📝 License
