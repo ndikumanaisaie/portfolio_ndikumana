@@ -780,6 +780,13 @@ h1 {
   .work1 .card-work .card-image img {
     height: 430px;
     width: 100%;
+    transition: transform 350ms;
+  }
+
+  .work1 .card-work .card-image img:hover {
+    height: 430px;
+    width: 100%;
+    transform: scale(1.05);
   }
 
   .work1 .card-work .left-block {
