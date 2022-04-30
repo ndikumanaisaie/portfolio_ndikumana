@@ -1172,6 +1172,19 @@ h1 {
     color: rgb(235, 235, 255);
   }
 
+  .contact-me p:hover {
+    animation-name: color_change;
+    animation-duration: 1s;
+  }
+  @keyframes color_change {
+    from {
+      color: rgb(220, 220, 223);
+    }
+    to {
+      color: rgb(255, 255, 255);
+    }
+  }
+  
   .contact-me form {
     margin-top: 80px;
     margin-left: auto;
