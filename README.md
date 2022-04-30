@@ -10,6 +10,7 @@ in web development.
 
 - html 
 - css
+- media queries
 
 ## Live Demo (if available)
 
@@ -22,6 +23,7 @@ no live demo
 - GitHub: [@githubhandle](https://github.com/ndikumanaisaie)
 - Twitter: [@twitterhandle](https://twitter.com/Ndikumana)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ndikumana isaie)
+- [![alt text][1.1]][1]
 
 
 
