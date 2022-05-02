@@ -2,8 +2,8 @@
 
 # My portfolio
 
-> This is my personal portfolio, it includes the experience and skills i have
-in web development. it is responsive website that can adapt to any screen size
+> Hi! My name is NDIKUMANA ISAIE, I am a front end developper. I have experience in HTML5, CSS3 and JAVASCRIPT. Curently
+> a full-time student at microverse to become a FullStack Web developper.
 
 
 ## Built With
@@ -12,9 +12,8 @@ in web development. it is responsive website that can adapt to any screen size
 - css
 - media queries
 
-## Live Demo (if available)
-
-no live demo
+## Live Demo
+- My portfolio: [ndikumana isaie](https://ndikumanaisaie.github.io/portfolio_ndikumana/)
 
 ## Authors
 
@@ -37,7 +36,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- microverse team, coding patners, mentor and code reviewers.
+- My family, microverse team, coding patners, mentor and code reviewers.
 
 
 ## 📝 License
