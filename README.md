@@ -13,7 +13,7 @@
 - media queries
 
 ## Live Demo
-- My portfolio: [ndikumana isaie](https://ndikumanaisaie.github.io/)
+- My portfolio: [ndikumana isaie](https://ndikumanaisaie.github.io/portfolio_ndikumana/)
 
 ## Authors
 
