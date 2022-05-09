@@ -39,15 +39,9 @@ body {
   width: 375px;
   border-radius: 0;
   border: 2px solid rgb(255, 255, 255);
+  position: fixed;
+  background-color: rgb(255, 255, 255);
 }
-
-/* .top-nav .normal-button {
-  margin-right: 24px;
-  height: 12px;
-  width: 18px;
-  font-weight: 700px;
-  color: rgb(96, 112, 255);
-} */
 
 .top-nav .logo-placeholder {
   font-size: 18px;
@@ -94,18 +88,22 @@ body {
 .open .mobile-menu {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
+  gap: 20px;
+  padding-top: 16px;
 }
 
 .mobile-menu {
   display: none;
   list-style-type: none;
   position: absolute;
-  top: 50px;
-  left: -50px;
-  height: 170px;
+  top: 40px;
+  left: 0;
+  height: 35vh;
   width: 100%;
+  background-color: rgb(96, 112, 255);
+  opacity: 0.9;
 }
 
 .mobile-menu li {
@@ -114,9 +112,12 @@ body {
 
 .mobile-menu li a {
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 24px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgb(255, 255, 255);
 }
 
 /* end of mobile menu */
@@ -125,7 +126,7 @@ body {
   border: 2px solid rgb(255, 255, 255);
   height: 670px;
   width: 375px;
-  background-image: url("./images/header-shapes-mobile.png");
+  background-image: url("../images/header-shapes-mobile.png");
   background-size: 375px 587px;
   background-repeat: no-repeat;
 }
@@ -136,7 +137,7 @@ body {
 }
 
 .connect p {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   letter-spacing: 0;
@@ -147,7 +148,7 @@ body {
 h1 {
   height: 150px;
   width: 327px;
-  margin: 120px 24px 0 24px;
+  margin: 160px 24px 0 24px;
   font-size: 40px;
   font-weight: 700px;
   line-height: 52px;
@@ -193,16 +194,16 @@ h1 {
 .work .card-work {
   margin-top: 40px;
   height: 552px;
-  width: 327px;
+  width: 375px;
   border-radius: 16px;
-  padding: 16px;
+  padding: 24px;
   background: rgb(255, 255, 255);
   border: 2px solid rgb(218, 218, 218);
 }
 
 .work .card-work .card-image {
   height: 220px;
-  width: 295px;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -218,7 +219,7 @@ h1 {
   align-content: flex-start;
   gap: 4px;
   height: 320px;
-  width: 295px;
+  width: 100%;
   border-radius: 0;
 }
 
@@ -543,11 +544,11 @@ h1 {
 .contact-me {
   height: 779px;
   width: 375px;
-  padding-top: 50px;
+  padding-top: 20px;
   text-align: center;
   border-top-left-radius: 80px;
   background: rgb(96, 112, 255);
-  background-image: url("./images/contact-form-shapes-mobile.svg");
+  background-image: url("../images/contact-form-shapes-mobile.svg");
   background-position: right 0% bottom 45%;
   background-repeat: no-repeat;
 }
@@ -743,7 +744,7 @@ h1 {
     width: 100%;
     background-color: rgb(255, 255, 255);
     border-bottom-left-radius: 80px;
-    background-image: url("./images/Header-bg.svg");
+    background-image: url("../images/Header-bg.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -1202,7 +1203,7 @@ h1 {
     text-align: center;
     border-top-left-radius: 80px;
     background: rgb(96, 112, 255);
-    background-image: url("./images/contact-form-background-shapes.svg");
+    background-image: url("../images/contact-form-background-shapes.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
