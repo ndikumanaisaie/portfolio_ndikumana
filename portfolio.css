@@ -41,13 +41,13 @@ body {
   border: 2px solid rgb(255, 255, 255);
 }
 
-.top-nav .normal-button {
+/* .top-nav .normal-button {
   margin-right: 24px;
   height: 12px;
   width: 18px;
   font-weight: 700px;
   color: rgb(96, 112, 255);
-}
+} */
 
 .top-nav .logo-placeholder {
   font-size: 18px;
@@ -62,6 +62,64 @@ body {
 .top-nav .logo-placeholder a {
   text-decoration: none;
 }
+
+/* mobile menu */
+#hamburger-icon {
+  margin: auto 0;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(96, 112, 255);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  top: 50px;
+  left: -50px;
+  height: 170px;
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+.mobile-menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* end of mobile menu */
 
 .header-background {
   border: 2px solid rgb(255, 255, 255);
@@ -89,7 +147,7 @@ body {
 h1 {
   height: 150px;
   width: 327px;
-  margin: 80px 24px 0 24px;
+  margin: 120px 24px 0 24px;
   font-size: 40px;
   font-weight: 700px;
   line-height: 52px;
@@ -604,9 +662,13 @@ h1 {
 /* top navigation styles for desktop */
 
 @media only screen and (min-width: 768px) {
-  .normal-button {
+  #hamburger-icon {
     display: none;
   }
+
+  /* .normal-button {
+    display: none;
+  } */
 
   .work {
     display: none;

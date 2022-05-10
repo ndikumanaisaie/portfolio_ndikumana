@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         rel="stylesheet"
@@ -14,8 +14,8 @@
   </head>
   <body>
     <header class="header">
-      <nav class="top-nav">
-        <div class="logo-placeholder">
+      <nav class="top-nav" id="top-nav">
+        <div class="logo-placeholder" id="logo">
           <a href="#"><span class="my-logo">My logo</span></a>
         </div>
         <!-- for large screen -->
@@ -24,9 +24,17 @@
           <a href="#"><span class="my-logo">About</span></a>
           <a href="#"><span class="my-logo">Contact</span></a>
         </div>
+      
         <!-- for smaller screens -->
-        <div class="normal-button">
-          <a href="#"><img src="./images/Union.svg" alt="more" /></a>
+        <div id="hamburger-icon">
+          <div class="bar1 bar"></div>
+          <div class="bar2 bar"></div>
+          <div class="bar3 bar"></div>
+          <ul class="mobile-menu">
+            <li><a href="#work">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
       </nav>
     <!-- mobile home section -->
@@ -44,27 +52,27 @@
       <div class="social-media">
         <ul>
           <li>
-            <a href="#">
+            <a href="https://github.com/ndikumanaisaie">
               <img src="./images/github.svg" alt="github" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://twitter.com/Ndikuma38670724">
               <img src="./images/medium.svg" alt="medium" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://twitter.com/Ndikuma38670724">
               <img src="./images/twitter.svg" alt="twitter" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="vector">
               <img src="./images/Vector.svg" alt="" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/ndikumana-isaie-21166273/">
               <img src="./images/Linkedin.svg" alt="linkedIn" />
             </a>
           </li>
@@ -78,15 +86,15 @@
     <section class="work1">
       <div class="card-work">
         <div class="card-image">
-          <img src="./images/Snapshoot-Portfolio.png" alt="card-work">
+          <img src="./images/Snapshoot-Portfolio.png" alt="my portfolio">
         </div>
         <div class="left-block">
           <h2 class="h2">Tonic</h2>
           <div class="frame1">
             <p class="c">conopy</p>
-            <img src="./images/Counter.png" alt="">
+            <img src="./images/Counter.png" alt="counter">
             <p class="p1">Back End Dev</p>
-            <img src="./images/Counter.png" alt="">
+            <img src="./images/Counter.png" alt="counter">
             <p class="p1">2020</p>
           </div>
           <p class="primary1">
@@ -109,9 +117,9 @@
           </h2>
           <div class="frame1">
             <p class="c">FACEBOOK</p>
-            <img src="./images/Counter.png" alt="">
+            <img src="./images/Counter.png" alt="counter">
             <p class="p1">Back End Dev</p>
-            <img src="./images/Counter.png" alt="">
+            <img src="./images/Counter.png" alt="counter">
             <p class="p1">2020</p>
           </div>
           <p class="primary1">
@@ -127,12 +135,12 @@
           <p class="action">See Project</p>
         </div>
         <div class="card-image">
-          <img src="./images/Snapshoot-Portfolio1.png" alt="card-work">
+          <img src="./images/Snapshoot-Portfolio1.png" alt="my portfolio">
         </div>
       </div>
       <div class="card-work">
         <div class="card-image">
-          <img src="./images/Snapshoot-Portfolio2.png" alt="card-work">
+          <img src="./images/Snapshoot-Portfolio2.png" alt="my portfolio">
         </div>
         <div class="left-block left-block1">
           <h2 class="h2">
@@ -140,9 +148,9 @@
           </h2>
           <div class="frame1">
             <p class="c">FACEBOOK</p>
-            <img src="./images/Counter.png" alt="">
+            <img src="./images/Counter.png" alt="counter">
             <p class="p1">Full Stack Dev</p>
-            <img src="./images/Counter.png" alt="">
+            <img src="./images/Counter.png" alt="counter">
             <p class="p1">2020</p>
           </div>
           <p class="primary1">
@@ -155,7 +163,7 @@
             <li><a href="#">javascript</a></li>
           </ul>
           <p class="action action1">See Project</p>
-          <img class="hand-cursor" src="/images/hand-cursor.png" alt="">
+          <img class="hand-cursor" src="/images/hand-cursor.png" alt="hand cursor">
         </div>
       </div>
       <div class="card-work">
@@ -165,9 +173,9 @@
           </h2>
           <div class="frame1">
             <p class="c">Uber</p>
-              <img src="./images/Counter.png" alt="">
+              <img src="./images/Counter.png" alt="counter">
             <p class="p1 pp1">Lead Developer</p>
-              <img src="./images/Counter.png" alt="">
+              <img src="./images/Counter.png" alt="counter">
             <p class="p1">2018</p>
           </div>
           <p class="primary1">
@@ -182,7 +190,7 @@
           <p class="action">See Project</p>
         </div>
         <div class="card-image">
-          <img src="./images/Snapshoot-Portfolio3.png" alt="card-work">
+          <img src="./images/Snapshoot-Portfolio3.png" alt="my portfolio">
         </div>
       </div>
     </section>
@@ -190,18 +198,18 @@
 
 
     <!-- Work section for mobile version -->
-    <section class="work">
+    <section id="work" class="work">
       <div class="card-work">
         <div class="card-image">
-          <img src="./images/card-work.svg" alt="card-work" />
+          <img src="./images/card-work.svg" alt="my portfolio" />
         </div>
         <div class="left-block">
           <h2 class="h2">Tonic</h2>
           <div class="frame1">
             <p>conopy</p>
-            <img src="./images/Counter.png" alt="" />
+            <img src="./images/Counter.png" alt="counter" />
             <p class="p1">Back End Dev</p>
-            <img src="./images/Counter.png" alt="" />
+            <img src="./images/Counter.png" alt="counter" />
             <p class="p1">2020</p>
           </div>
           <p class="primary1">
@@ -218,15 +226,15 @@
       </div>
       <div class="card-work">
         <div class="card-image">
-          <img src="./images/card-work4.svg" alt="card-work" />
+          <img src="./images/card-work4.svg" alt="my portfolio" />
         </div>
         <div class="left-block">
           <h2 class="h2">Multi-Post Stories</h2>
           <div class="frame1">
             <p>conopy</p>
-            <img src="./images/Counter.png" alt="" />
+            <img src="./images/Counter.png" alt="counter" />
             <p class="p1">Back End Dev</p>
-            <img src="./images/Counter.png" alt="" />
+            <img src="./images/Counter.png" alt="counter" />
             <p class="p1">2020</p>
           </div>
           <p class="primary1">
@@ -243,15 +251,15 @@
       </div>
       <div class="card-work">
         <div class="card-image">
-          <img src="./images/card-work3.svg" alt="card-work" />
+          <img src="./images/card-work3.svg" alt="my portfolio" />
         </div>
         <div class="left-block">
           <h2 class="h2">Tonic</h2>
           <div class="frame1">
             <p>conopy</p>
-            <img src="./images/Counter.png" alt="" />
+            <img src="./images/Counter.png" alt="counter" />
             <p class="p1">Back End Dev</p>
-            <img src="./images/Counter.png" alt="" />
+            <img src="./images/Counter.png" alt="counter" />
             <p class="p1">2020</p>
           </div>
           <p class="primary1">
@@ -268,15 +276,15 @@
       </div>
       <div class="card-work">
         <div class="card-image">
-          <img src="./images/card-work1.svg" alt="card-work" />
+          <img src="./images/card-work1.svg" alt="my portfolio" />
         </div>
         <div class="left-block">
           <h2 class="h2">Multi-Post Stories</h2>
           <div class="frame1">
             <p>conopy</p>
-            <img src="./images/Counter.png" alt="" />
+            <img src="./images/Counter.png" alt="counter" />
             <p class="p1">Back End Dev</p>
-            <img src="./images/Counter.png" alt="" />
+            <img src="./images/Counter.png" alt="counter" />
             <p class="p1">2020</p>
           </div>
           <p class="primary1">
@@ -295,7 +303,7 @@
     <!-- End of Work section for mobile version -->
 
     <!-- about section for mobile version -->
-    <section class="about">
+    <section id="about" class="about">
       <div class="top">
         <h2 class="h2">About Myself</h2>
         <div class="primary1">
@@ -317,22 +325,22 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://github.com/ndikumanaisaie">
                 <img src="./images/medium.svg" alt="medium" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://twitter.com/Ndikuma38670724">
                 <img src="./images/twitter.svg" alt="twitter" />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src="./images/Vector.svg" alt="" />
+              <a href="mailTo:ndikumanaisaie@gmail.com">
+                <img src="./images/Vector.svg" alt="vection" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/ndikumana-isaie-21166273/">
                 <img src="./images/Linkedin.svg" alt="linkedIn" />
               </a>
             </li>
@@ -352,21 +360,21 @@
                 <ul>
                   <li>
                     <a href="#">
-                      <img src="./images/js.png" alt="" /><span
+                      <img src="./images/js.png" alt="javaScript" /><span
                         >javaScript</span
                       >
                     </a>
                   </li>
                   <li>
                     <a href="#"
-                      ><img src="./images/html.png" alt="" /><span
+                      ><img src="./images/html.png" alt="html" /><span
                         >HTML</span
                       ></a
                     >
                   </li>
                   <li>
                     <a href="#"
-                      ><img src="./images/css.png" alt="" /><span>CSS</span></a
+                      ><img src="./images/css.png" alt="css" /><span>CSS</span></a
                     >
                   </li>
                 </ul>
@@ -387,7 +395,7 @@
     <!-- end of about section for mobile version -->
 
     <!-- Contact section for desktop version -->
-    <footer class="contact-section">
+    <footer id="contact" class="contact-section">
       <div class="contact-me">
         <h2>contact me</h2>
         <p>
@@ -396,38 +404,43 @@
           I`d love to help with it 
         </p>
         <form action="https://formspree.io/f/mrgjopne" class="form1" method="POST">
+          <label for="name"></label>
           <input
             class="text2"
             type="text"
             name="fname"
-            id="form1"
+            id="name"
             placeholder="ndikumana isaie"
             maxlength="30"
             required
           />
+          <label for="email"></label>
           <input
             class="email"
             type="email"
-            id="lname"
-            name="lname"
+            id="email"
+            name="email"
             placeholder="ndikumanaisaie@gmail.com"
             required
           />
+          <label for="message"></label>
           <textarea
             name="message"
             class="message"
+            id="message"
             rows="4"
             cols="50"
             placeholder="Write your message here"
             maxlength="500"
             required
           ></textarea>
-          <input class="submit" type="submit" value="Get In Touch" />
+          <input aria-label="submit" class="submit" name="submit" type="submit" value="Get In Touch" />
         </form>
         <div class="bottom-rule">
         </div>
       </div>
     </footer>
     <!-- End of contact section for desktop version and contact mobile section-->
+    <script src="./js/index.js"></script>
   </body>
 </html>
