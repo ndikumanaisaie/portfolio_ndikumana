@@ -337,6 +337,7 @@ p {
     font-weight: medium;
     line-height: 24px;
     letter-spacing: 0.03em;
+    cursor: pointer;
     border: 1px solid rgb(57, 109, 242);
     color: rgb(57, 109, 242);
 }
@@ -532,6 +533,7 @@ p {
     font-size: 19px;
     font-weight: 500px;
     font-weight: medium;
+    cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.03em;
     border: 1px solid rgb(57, 109, 242);
@@ -967,6 +969,7 @@ p {
         font-size: 19px;
         font-weight: 500;
         font-weight: medium;
+        cursor: pointer;
         line-height: 24px;
         letter-spacing: 0.03em;
         color: rgb(57, 109, 242);
