@@ -11,6 +11,7 @@
 - html 
 - css
 - media queries
+- javascript
 
 ## Live Demo
 - My portfolio: [ndikumana isaie](https://ndikumanaisaie.github.io/portfolio_ndikumana/)
