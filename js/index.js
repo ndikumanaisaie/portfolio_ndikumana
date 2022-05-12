@@ -2,123 +2,116 @@ const humberger = document.getElementById('hamburger-icon');
 humberger.addEventListener('click', () => {
   humberger.classList.toggle('open');
 });
-
-const myData = [
+const projects = [
+  {
+    id: 0,
+    place: 'CANOPY',
+    title: 'Back End Dev',
+    year: '2015',
+    name: 'Tonic',
+    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
+    image: {
+      link: './images/Snapshoot-portfolio.png',
+      alt: 'Project Screenshot',
+    },
+    liveSource: '#',
+    sourceCode: '#',
+  },
   {
     id: 1,
-    card_image: '../images/Snapshoot-Portfolio.png',
-    heading: 'Tonic',
-    live_version: 'see live',
-    source: 'see source',
-    card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    popup_description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it 1960s with the
-    releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s,
-    when an unknown printer took a galley of type veris lapoa todoe.`,
-    technologies: ['html', 'css', 'javascript'],
-    brands: ['conopy', 'Back End Dev', '2020'],
-    technologies1: ['html', 'css', 'javascript', 'Ruby on rails', 'bootstrap', 'github'],
+    name: 'Multi-Post Stories',
+    place: 'Facebook',
+    title: 'Full Stack Dev',
+    year: '2015',
+    card_description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    image: {
+      link: './images/Snapshoot-portfolio1.png',
+      alt: 'Multi-Post Stories screenshot',
+    },
+    liveSource: '#',
+    sourceCode: '#',
   },
-
   {
     id: 2,
-    card_image: '../images/Snapshoot-Portfolio1.png',
-    heading: 'Multi-Post Stories',
-    live_version: 'see live',
-    source: 'see source',
-    card_description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    popup_description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it 1960s with the
-    releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s,
-    when an unknown printer took a galley of type veris lapoa todoe.`,
-    technologies: ['html', 'css', 'javascript'],
-    technologies1: ['html', 'css', 'javascript', 'Ruby on rails', 'bootstrap', 'github'],
+    name: 'Facebook 360',
+    place: 'Facebook',
+    title: 'Full Stack Dev',
+    year: '2015',
+    card_description: 'Exploring the future of media in Facebook`s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    image: {
+      link: './images/Snapshoot-portfolio2.png',
+      alt: 'Facebook 360screenshot',
+    },
+    liveSource: '#',
+    sourceCode: '#',
   },
-
   {
     id: 3,
-    card_image: '../images/Snapshoot-Portfolio2.png',
-    heading: 'Facebook 360',
-    live_version: 'see live',
-    source: 'see source',
-    card_description: `Exploring the future of media in Facebook's first Virtual Reality
-     app; a place to discover and enjoy 360 photos and videos on Gear VR.`,
-    popup_description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it 1960s with the
-    releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s,
-    when an unknown printer took a galley of type veris lapoa todoe.`,
-    technologies: ['html', 'css', 'javascript'],
-    technologies1: ['html', 'css', 'javascript', 'Ruby on rails', 'bootstrap', 'github'],
-  },
-
-  {
-    id: 4,
-    card_image: '../images/Snapshoot-Portfolio3.png',
-    heading: 'Uber Navigation',
-    live_version: 'see live',
-    source: 'see source',
-    card_description: `A smart assistant to make driving more safe, efficient, 
-    and fun by unlocking your most expensive computer: your car..`,
-    popup_description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it 1960s with the
-    releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s,
-    when an unknown printer took a galley of type veris lapoa todoe.`,
-    technologies: ['html', 'css', 'javascript'],
-    technologies1: ['html', 'css', 'javascript', 'Ruby on rails', 'bootstrap', 'github'],
+    name: 'Uber',
+    place: 'Uber',
+    title: 'Lead Developer',
+    year: '2018',
+    card_description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    image: {
+      link: './images/Snapshoot-portfolio3.png',
+      alt: 'Uber Navigation screenshot',
+    },
+    liveSource: '#',
+    sourceCode: '#',
   },
 ];
-
 const modalDetails = document.createElement('div');
 modalDetails.id = 'modal-details';
 modalDetails.className = 'project-details';
-
 function showDetails(projectIndex) {
   const projectsCode = `
   <div class="details-container">
     <div class="details-container-content">
     <div class="headc">
-    <h1 class= "headtitle">${myData[projectIndex].name}</h1>
-    <div class="works__card__subtitle flex">
-              <p class="works__card__subtitle-1 c1">
-              <b>${myData[projectIndex].place}</b>
-              </p>
-              <ul class="works__card__subtitle-ul flex">
-                <li class="works__card__subtitle-li c2">
-                ${myData[projectIndex].title}
-                </li>
-                <li class="works__card__subtitle-li c2"> 
-                ${myData[projectIndex].year}
-                </li>
-              </ul>
-            </div>
+    <h1 class= "headtitle">${projects[projectIndex].name}</h1>
+    <div class="frame1">
+            <p>conopy</p>
+            <img src="./images/Counter.png" alt="counter" />
+            <p class="p1">Back End Dev</p>
+            <img src="./images/Counter.png" alt="counter" />
+            <p class="p1">2020</p>
+          </div>
     <div class="closeDetails" id="closeDetails">&times;</div>
     </div>
-      <img class="project-image" src="${myData[projectIndex].image.link}" alt="${myData[projectIndex].image.alt}" />
-       <div class="s1"> 
+      <img class="project-image" src="${projects[projectIndex].image.link}" alt="${projects[projectIndex].image.alt}" />
+       <div class="s1">
       <p class="description">
-        ${myData[projectIndex].description}
+        ${projects[projectIndex].description}
        </p>
         <div class="tech-and-buttons">
           <div class="card-languages">
             ${(function usedTech() {
-    return myData[projectIndex].technologies
+    return projects[projectIndex].technologies
       .map((tech) => `<li class="language">${tech}</li>`)
       .join('');
   }())}
           </div>
           <div class="buttons">
             <a href="${
-  myData[projectIndex].liveSource
+  projects[projectIndex].liveSource
 }" class="btn green-button">
 <div class ="it">See Live</div>
 <div class="image"><img src="logos/Icon.png"></div>
  </a>
              <a href="${
-  myData[projectIndex].sourceCode
+  projects[projectIndex].sourceCode
 }" class="btn green-button"><div class ="it">See source</div>
 <div class="image"><img src="logos/Vector.png"></div>
  </a>
@@ -126,30 +119,27 @@ function showDetails(projectIndex) {
           </div>
     </div>
   </div>`;
-
   modalDetails.innerHTML += projectsCode;
   document.body.appendChild(modalDetails);
   document.getElementById('closeDetails').addEventListener('click', () => {
     modalDetails.innerHTML = '';
     document.body.removeChild(modalDetails);
-    document.getElementById('hero').style.filter = 'none';
   });
 }
-
 const portfolioDynamic = document.getElementById('work1');
 const projectList = document.createElement('ul');
-projectList.className = 'works__cards ul grid';
+projectList.className = 'work1';
 portfolioDynamic.appendChild(projectList);
-
+/*   cards */
 let projectsCard = '';
-for (let j = 0; j < myData.length; j += 1) {
+for (let j = 0; j < projects.length; j += 1) {
   projectsCard += `
   <div class="card-work">
         <div class="card-image">
-          <img src="./images/Snapshoot-Portfolio.png" alt="my portfolio">
+          <img src="${projects[j].image.link}" alt="my portfolio">
         </div>
         <div class="left-block">
-          <h2 class="h2">Tonic</h2>
+          <h2 class="h2">${projects[j].name}</h2>
           <div class="frame1">
             <p class="c">conopy</p>
             <img src="./images/Counter.png" alt="counter">
@@ -158,24 +148,121 @@ for (let j = 0; j < myData.length; j += 1) {
             <p class="p1">2020</p>
           </div>
           <p class="primary1">
-            A daily selection of privately personalized reads; 
-            no accounts or sign-ups required.
+            ${projects[j].card_description}
           </p>
           <ul>
             <li class="html"><a href="#">html</a></li>
             <li class="css"><a href="#">css</a></li>
             <li class="javascript"><a href="#">javascript</a></li>
           </ul>
-          <p class="action">See Project</p>
+          <p class="action details-btn" data-id="${
+  projects[j].id
+}">See Project</p>
         </div>
       </div>`;
 }
 projectList.innerHTML = projectsCard;
-
 const showButton = document.querySelectorAll('.details-btn');
 showButton.forEach((btn) => {
   btn.addEventListener('click', (event) => {
     showDetails(event.target.dataset.id);
-    document.getElementById('hero').style.filter = 'blur(1.9rem)';
+  });
+});
+
+/* mobile */
+const portfolioDynamic1 = document.getElementById('work');
+const projectList1 = document.createElement('ul');
+projectList1.className = 'work';
+portfolioDynamic1.appendChild(projectList1);
+let projectsCard1 = '';
+for (let j = 0; j < projects.length; j += 1) {
+  projectsCard1 += `
+<div class="card-work">
+        <div class="card-image">
+          <img src="./images/card-work.svg" alt="my portfolio" />
+        </div>
+        <div class="left-block">
+          <h2 class="h2">Tonic</h2>
+          <div class="frame1">
+            <p>conopy</p>
+            <img src="./images/Counter.png" alt="counter" />
+            <p class="p1">Back End Dev</p>
+            <img src="./images/Counter.png" alt="counter" />
+            <p class="p1">2020</p>
+          </div>
+          <p class="primary1">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul>
+            <li><a href="#">html</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">javascript</a></li>
+          </ul>
+          <p class="action details-btn" data-id="${
+  projects[j].id
+}">See Project</p>
+        </div>
+      </div>
+`;
+}
+projectList1.innerHTML = projectsCard1;
+
+function showDetails1(projectIndex) {
+  const projectsCode = `
+  <div class="details-container">
+    <div class="details-container-content">
+    <div class="headc">
+    <h1 class= "headtitle">${projects[projectIndex].name}</h1>
+    <div class="frame1">
+            <p>${projects[projectIndex].place}</p>
+            <img src="./images/Counter.png" alt="counter" />
+            <p class="p1">Back End Dev</p>
+            <img src="./images/Counter.png" alt="counter" />
+            <p class="p1">2020</p>
+          </div>
+    <div class="closeDetails" id="closeDetails">&times;</div>
+    </div>
+      <img class="project-image" src="${projects[projectIndex].image.link}" alt="${projects[projectIndex].image.alt}" />
+       <div class="s1">
+      <p class="description">
+        ${projects[projectIndex].description}
+       </p>
+        <div class="tech-and-buttons">
+          <div class="card-languages">
+            ${(function usedTech() {
+    return projects[projectIndex].technologies
+      .map((tech) => `<li class="language">${tech}</li>`)
+      .join('');
+  }())}
+          </div>
+          <div class="buttons">
+            <a href="${
+  projects[projectIndex].liveSource
+}" class="btn green-button">
+<div class ="it">See Live</div>
+<div class="image"><img src="logos/Icon.png"></div>
+ </a>
+             <a href="${
+  projects[projectIndex].sourceCode
+}" class="btn green-button"><div class ="it">See source</div>
+<div class="image"><img src="logos/Vector.png"></div>
+ </a>
+          </div>
+          </div>
+    </div>
+  </div>`;
+  modalDetails.innerHTML += projectsCode;
+  document.body.appendChild(modalDetails);
+  document.getElementById('closeDetails').addEventListener('click', () => {
+    modalDetails.innerHTML = '';
+    document.body.removeChild(modalDetails);
+  });
+}
+
+const showButton1 = document.querySelectorAll('.details-btn');
+showButton1.forEach((btn) => {
+  btn.addEventListener('click', (event) => {
+    showDetails1(event.target.dataset.id);
   });
 });
