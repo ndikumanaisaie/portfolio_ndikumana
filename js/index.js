@@ -9,13 +9,20 @@ const projects = [
     title: 'Back End Dev',
     year: '2015',
     name: 'Tonic',
+    name1: 'Tonic',
+    mobile_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     card_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
+    technologies: ['html', 'css', 'javascript'],
+    technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
       link: './images/Snapshoot-portfolio.png',
       alt: 'Project Screenshot',
+    },
+    image1: {
+      link: './images/card-work.svg',
+      alt: 'card_wowrk',
     },
     liveSource: '#',
     sourceCode: '#',
@@ -23,16 +30,23 @@ const projects = [
   {
     id: 1,
     name: 'Multi-Post Stories',
+    name1: 'Tonic',
     place: 'Facebook',
     title: 'Full Stack Dev',
     year: '2015',
+    mobile_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     card_description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    technologies: ['html', 'css', 'javascript'],
+    technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
       link: './images/Snapshoot-portfolio1.png',
       alt: 'Multi-Post Stories screenshot',
+    },
+    image1: {
+      link: './images/card-work1.svg',
+      alt: 'card_wowrk',
     },
     liveSource: '#',
     sourceCode: '#',
@@ -40,16 +54,23 @@ const projects = [
   {
     id: 2,
     name: 'Facebook 360',
+    name1: 'Tonic',
     place: 'Facebook',
     title: 'Full Stack Dev',
     year: '2015',
+    mobile_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     card_description: 'Exploring the future of media in Facebook`s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    technologies: ['html', 'css', 'javascript'],
+    technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
       link: './images/Snapshoot-portfolio2.png',
       alt: 'Facebook 360screenshot',
+    },
+    image1: {
+      link: './images/card-work3.svg',
+      alt: 'card_wowrk',
     },
     liveSource: '#',
     sourceCode: '#',
@@ -57,16 +78,23 @@ const projects = [
   {
     id: 3,
     name: 'Uber',
+    name1: 'Tonic',
     place: 'Uber',
     title: 'Lead Developer',
     year: '2018',
+    mobile_description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     card_description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    technologies: ['html', 'css', 'javascript'],
+    technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
       link: './images/Snapshoot-portfolio3.png',
       alt: 'Uber Navigation screenshot',
+    },
+    image1: {
+      link: './images/card-work4.svg',
+      alt: 'card_wowrk',
     },
     liveSource: '#',
     sourceCode: '#',
@@ -82,11 +110,11 @@ function showDetails(projectIndex) {
     <div class="headc">
     <h1 class= "headtitle">${projects[projectIndex].name}</h1>
     <div class="frame1">
-            <p>conopy</p>
+            <p>${projects[projectIndex].place}</p>
             <img src="./images/Counter.png" alt="counter" />
-            <p class="p1">Back End Dev</p>
+            <p class="p1">${projects[projectIndex].title}</p>
             <img src="./images/Counter.png" alt="counter" />
-            <p class="p1">2020</p>
+            <p class="p1">${projects[projectIndex].year}</p>
           </div>
     <div class="closeDetails" id="closeDetails">&times;</div>
     </div>
@@ -97,23 +125,24 @@ function showDetails(projectIndex) {
        </p>
         <div class="tech-and-buttons">
           <div class="card-languages">
+          <ul>
             ${(function usedTech() {
-    return projects[projectIndex].technologies
+    return projects[projectIndex].technologies1
       .map((tech) => `<li class="language">${tech}</li>`)
       .join('');
-  }())}
+  }())}    </ul>
           </div>
           <div class="buttons">
             <a href="${
   projects[projectIndex].liveSource
 }" class="btn green-button">
 <div class ="it">See Live</div>
-<div class="image"><img src="logos/Icon.png"></div>
+<div class="image"><img src="./images/arrow.svg"></div>
  </a>
              <a href="${
   projects[projectIndex].sourceCode
 }" class="btn green-button"><div class ="it">See source</div>
-<div class="image"><img src="logos/Vector.png"></div>
+<div class="image"><img src="./images/github.svg"></div>
  </a>
           </div>
           </div>
@@ -141,19 +170,19 @@ for (let j = 0; j < projects.length; j += 1) {
         <div class="left-block">
           <h2 class="h2">${projects[j].name}</h2>
           <div class="frame1">
-            <p class="c">conopy</p>
+            <p class="c">${projects[j].place}</p>
             <img src="./images/Counter.png" alt="counter">
-            <p class="p1">Back End Dev</p>
+            <p class="p1">${projects[j].title}</p>
             <img src="./images/Counter.png" alt="counter">
-            <p class="p1">2020</p>
+            <p class="p1">${projects[j].year}</p>
           </div>
           <p class="primary1">
             ${projects[j].card_description}
           </p>
           <ul>
-            <li class="html"><a href="#">html</a></li>
-            <li class="css"><a href="#">css</a></li>
-            <li class="javascript"><a href="#">javascript</a></li>
+            <li><a href="#">html</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">javascript</a></li>
           </ul>
           <p class="action details-btn" data-id="${
   projects[j].id
@@ -179,25 +208,22 @@ for (let j = 0; j < projects.length; j += 1) {
   projectsCard1 += `
 <div class="card-work">
         <div class="card-image">
-          <img src="./images/card-work.svg" alt="my portfolio" />
+          <img src="${projects[j].image1.link}" alt="my portfolio">
         </div>
         <div class="left-block">
-          <h2 class="h2">Tonic</h2>
+          <h2 class="h2">${projects[j].name1}</h2>
           <div class="frame1">
-            <p>conopy</p>
-            <img src="./images/Counter.png" alt="counter" />
-            <p class="p1">Back End Dev</p>
-            <img src="./images/Counter.png" alt="counter" />
-            <p class="p1">2020</p>
+            <p class="c">${projects[j].place}</p>
+            <img src="./images/Counter.png" alt="counter">
+            <p class="p1">${projects[j].title}</p>
+            <img src="./images/Counter.png" alt="counter">
+            <p class="p1">${projects[j].year}</p>
           </div>
           <p class="primary1">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+            ${projects[j].mobile_description}
           </p>
           <ul>
-            <li><a href="#">html</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">javascript</a></li>
+          ${projects[j].technologies.map((lang) => `<li>${lang}</li>`).join('')}
           </ul>
           <p class="action details-btn" data-id="${
   projects[j].id
@@ -217,10 +243,10 @@ function showDetails1(projectIndex) {
     <div class="frame1">
             <p>${projects[projectIndex].place}</p>
             <img src="./images/Counter.png" alt="counter" />
-            <p class="p1">Back End Dev</p>
+            <p class="p1">${projects[projectIndex].title}</p>
             <img src="./images/Counter.png" alt="counter" />
-            <p class="p1">2020</p>
-          </div>
+            <p class="p1">${projects[projectIndex].year}</p>
+    </div>
     <div class="closeDetails" id="closeDetails">&times;</div>
     </div>
       <img class="project-image" src="${projects[projectIndex].image.link}" alt="${projects[projectIndex].image.alt}" />
@@ -230,23 +256,24 @@ function showDetails1(projectIndex) {
        </p>
         <div class="tech-and-buttons">
           <div class="card-languages">
+          <ul>
             ${(function usedTech() {
-    return projects[projectIndex].technologies
+    return projects[projectIndex].technologies1
       .map((tech) => `<li class="language">${tech}</li>`)
       .join('');
-  }())}
+  }())}    </ul>
           </div>
           <div class="buttons">
             <a href="${
   projects[projectIndex].liveSource
 }" class="btn green-button">
 <div class ="it">See Live</div>
-<div class="image"><img src="logos/Icon.png"></div>
+<div class="image"><img src="./images/arrow.svg"></div>
  </a>
              <a href="${
   projects[projectIndex].sourceCode
 }" class="btn green-button"><div class ="it">See source</div>
-<div class="image"><img src="logos/Vector.png"></div>
+<div class="image"><img src="./images/github.svg"></div>
  </a>
           </div>
           </div>

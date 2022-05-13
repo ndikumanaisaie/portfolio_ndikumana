@@ -17,6 +17,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(244, 244, 244);
+    overflow-x: hidden;
 }
 
 /* for mobile */
@@ -29,6 +30,10 @@ body {
     background-color: rgba(182, 177, 177, 0.801);
     width: 100%;
     overflow-y: scroll;
+  }
+
+  .headtitle {
+    margin-top: -20px;
   }
 
   /* Modal styling */
@@ -62,6 +67,8 @@ body {
     padding: 15px 15px;
     position: relative;
     padding-top: 30px;
+    border: 2px solid green;
+    border-radius: 16px;
   }
 
   .closeDetails {
@@ -109,10 +116,20 @@ body {
     display: flex;
   }
 
-  .card-languages {
+   .card-languages ul {
+    margin-top: 120px;
     display: flex;
     flex-direction: row;
     justify-content: start;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style-type: none;
+    margin-left: -38px;
+  }
+
+  .card-languages ul li {
+    padding: 8px;
+    font-size: 16px;
   }
 
   .description {
@@ -142,6 +159,30 @@ body {
     background: #ebf0ee;
     border-radius: 4px;
     margin-right: 10px;
+  }
+
+  .green-button {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #396df2;
+    margin-top: 15px;
+    text-decoration: none;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    height: 40px;
+  }
+
+  .it {
+    margin-right: 12px;
+    margin-top: 2px;
+    font-size: 14px;
   }
 
 .work1 {
@@ -255,7 +296,7 @@ body {
 .header-background {
     border: 2px solid rgb(255, 255, 255);
     height: 670px;
-    width: 375px;
+    width: 100vw;
     background-image: url("../images/header-shapes-mobile.png");
     background-size: 375px 587px;
     background-repeat: no-repeat;
@@ -891,6 +932,10 @@ p {
         gap: 1rem;
         border-bottom: 1px solid #ebecf0;
         padding-bottom: 1rem;
+      }
+
+      .card-languages ul {
+        margin-top: -18px;
       }
 
       .c1 {
