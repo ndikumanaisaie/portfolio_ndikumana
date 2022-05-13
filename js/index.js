@@ -163,7 +163,7 @@ portfolioDynamic.appendChild(projectList);
 let projectsCard = '';
 for (let j = 0; j < projects.length; j += 1) {
   projectsCard += `
-  <div class="card-work">
+  <div class="card-work card-work${projects[j].id}">
         <div class="card-image">
           <img src="${projects[j].image.link}" alt="my portfolio">
         </div>
