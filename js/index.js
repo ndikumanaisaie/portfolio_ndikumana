@@ -247,7 +247,7 @@ function showDetails1(projectIndex) {
             <img src="./images/Counter.png" alt="counter" />
             <p class="p1">${projects[projectIndex].year}</p>
     </div>
-    <div class="closeDetails" id="closeDetails">&times;</div>
+    <div class="closeDetails" id="closeDetails1">&times;</div>
     </div>
       <img class="project-image" src="${projects[projectIndex].image.link}" alt="${projects[projectIndex].image.alt}" />
        <div class="s1">
@@ -281,7 +281,7 @@ function showDetails1(projectIndex) {
   </div>`;
   modalDetails.innerHTML += projectsCode;
   document.body.appendChild(modalDetails);
-  document.getElementById('closeDetails').addEventListener('click', () => {
+  document.getElementById('closeDetails1').addEventListener('click', () => {
     modalDetails.innerHTML = '';
     document.body.removeChild(modalDetails);
   });
