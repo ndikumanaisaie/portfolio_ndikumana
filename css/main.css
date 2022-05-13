@@ -512,7 +512,7 @@ p {
 }
 
 .about {
-    margin-top: 40px;
+    margin: 40px 24;
     height: 1000px;
     width: 375px;
     padding: 114px, 24px, 114px, 24px;
