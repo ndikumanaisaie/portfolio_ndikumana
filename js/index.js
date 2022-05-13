@@ -319,7 +319,10 @@ document.getElementById('form').addEventListener('change', (e) => {
 const nameField = document.getElementById('name');
 const emailField = document.getElementById('email');
 const messageField = document.getElementById('message');
-const retrievedPerson = JSON.parse(localStorage.getItem('person'));
-nameField.value = retrievedPerson.name;
-emailField.value = retrievedPerson.email;
-messageField.value = retrievedPerson.message;
+
+if (localStorage.getItem('person') !== null) {
+  const retrievedPerson = JSON.parse(localStorage.getItem('person'));
+  nameField.value = retrievedPerson.name;
+  emailField.value = retrievedPerson.email;
+  messageField.value = retrievedPerson.message;
+}
