@@ -61,7 +61,7 @@ body {
   }
 
   .details-container-content {
-    width: 80%;
+    width: 70%;
     margin: 20px auto;
     background-color: #fff;
     padding: 15px 15px;
@@ -194,10 +194,12 @@ body {
 }
 
 .header {
+    margin: 0 10%;
     height: 718px;
     width: 375px;
     background: rgb(255, 255, 255);
     border-bottom-left-radius: 80px;
+    border: 2px solid green;
 }
 
 .top-nav {
@@ -512,7 +514,7 @@ p {
 }
 
 .about {
-    margin: 40px 24;
+    margin: 0 10%;
     height: 1000px;
     width: 375px;
     padding: 114px, 24px, 114px, 24px;
@@ -711,6 +713,7 @@ p {
 /* contact form styles starts from here */
 
 .contact-me {
+    margin: 0 10%;
     height: 779px;
     width: 375px;
     padding-top: 20px;
@@ -1033,6 +1036,7 @@ p {
     }
 
     .header {
+        margin: 0;
         height: 916px;
         width: 100%;
         background: rgb(255, 255, 255);
