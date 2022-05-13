@@ -294,9 +294,9 @@ showButton1.forEach((btn) => {
 
 // form validation
 document.getElementById('form').addEventListener('submit', (e) => {
-  const emailValue = document.getElementById('email').value; 
+  const emailValue = document.getElementById('email').value;
   const emailError = document.getElementById('error-msg');
-   const validate = emailValue.toLowerCase(); 
+  const validate = emailValue.toLowerCase();
   if (emailValue === validate) {
     emailError.textContent = '';
     localStorage.removeItem('formData');
