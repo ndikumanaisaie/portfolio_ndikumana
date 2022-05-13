@@ -294,7 +294,7 @@ showButton1.forEach((btn) => {
 
 let person = {};
 
-document.getElementById('form').addEventListener('submit', (e) => {
+document.getElementById('form').addEventListener('change', (e) => {
   const nameValue = document.getElementById('name').value;
   const emailValue = document.getElementById('email').value;
   const messageValue = document.getElementById('message').value;
