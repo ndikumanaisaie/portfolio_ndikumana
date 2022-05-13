@@ -1291,6 +1291,7 @@ p {
         list-style-type: none;
         margin: 0;
         padding: 0;
+        height: 40px;
         overflow: hidden;
     }
 
