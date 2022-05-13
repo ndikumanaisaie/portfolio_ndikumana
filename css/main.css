@@ -17,9 +17,174 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(244, 244, 244);
+    overflow-x: hidden;
 }
 
 /* for mobile */
+.details-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(182, 177, 177, 0.801);
+    width: 100%;
+    overflow-y: scroll;
+  }
+
+  .headtitle {
+    margin-top: -20px;
+  }
+
+  /* Modal styling */
+  .project-image {
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px 24px 0 24px;
+  }
+
+  .btn {
+    margin: 10px;
+  }
+
+  .project-title {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    width: 589px;
+    font-weight: bold;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 0 24px;
+    color: #172b4d;
+  }
+
+  .details-container-content {
+    width: 82%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 15px 15px;
+    position: relative;
+    padding-top: 30px;
+    border: 2px solid green;
+    border-radius: 16px;
+  }
+
+  .closeDetails {
+    text-align: end;
+    position: absolute;
+    right: 40px;
+    padding: 4px;
+    border-radius: 3px;
+    top: 20px;
+    background: rgba(235, 236, 240, 1);
+    color: rgba(103, 121, 142, 1);
+  }
+
+  .project-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .list-bg {
+    padding: 6px 10px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
+    border: none;
+    background: #ebf0ee;
+    border-radius: 4px;
+  }
+
+  .list-position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .buttons {
+    margin-right: 12px;
+    position: relative;
+    display: flex;
+  }
+
+   .card-languages ul {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style-type: none;
+    margin-left: -38px;
+  }
+
+  .card-languages ul li {
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  .description {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #344563;
+    margin-top: 20px;
+    text-align: justify;
+    max-width: 80vw;
+  }
+
+  .tech-and-buttons {
+    padding: 24px;
+  }
+
+  .language {
+    padding: 6px 10px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
+    border: none;
+    background: #ebf0ee;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
+  .green-button {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #396df2;
+    margin-top: 15px;
+    text-decoration: none;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 50px;
+  }
+
+  .it {
+    margin-right: 12px;
+    margin-top: 2px;
+    font-size: 14px;
+  }
 
 .work1 {
     display: none;
@@ -30,6 +195,7 @@ body {
 }
 
 .header {
+    margin: 0 10%;
     height: 718px;
     width: 375px;
     background: rgb(255, 255, 255);
@@ -132,7 +298,7 @@ body {
 .header-background {
     border: 2px solid rgb(255, 255, 255);
     height: 670px;
-    width: 375px;
+    width: 100vw;
     background-image: url("../images/header-shapes-mobile.png");
     background-size: 375px 587px;
     background-repeat: no-repeat;
@@ -337,6 +503,7 @@ p {
     font-weight: medium;
     line-height: 24px;
     letter-spacing: 0.03em;
+    cursor: pointer;
     border: 1px solid rgb(57, 109, 242);
     color: rgb(57, 109, 242);
 }
@@ -347,7 +514,7 @@ p {
 }
 
 .about {
-    margin-top: 40px;
+    margin: 0 10%;
     height: 1000px;
     width: 375px;
     padding: 114px, 24px, 114px, 24px;
@@ -532,6 +699,7 @@ p {
     font-size: 19px;
     font-weight: 500px;
     font-weight: medium;
+    cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.03em;
     border: 1px solid rgb(57, 109, 242);
@@ -545,6 +713,7 @@ p {
 /* contact form styles starts from here */
 
 .contact-me {
+    margin: 0 10%;
     height: 779px;
     width: 375px;
     padding-top: 20px;
@@ -666,6 +835,199 @@ p {
 /* top navigation styles for desktop */
 
 @media only screen and (min-width: 768px) {
+    .details-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        overflow-y: scroll;
+        background: #c1c7d0;
+        z-index: 99;
+      }
+
+      /* Modal styling */
+      .project-image {
+        width: 100%;
+        border-radius: 8px;
+        padding: 20px 24px 0 24px;
+      }
+
+      .btn {
+        margin: 10px;
+      }
+
+      .project-title {
+        font-size: 32px;
+        font-style: normal;
+        width: 589px;
+        font-weight: bold;
+        line-height: 44px;
+        letter-spacing: 0;
+        text-align: left;
+        padding: 0 24px;
+        color: #172b4d;
+      }
+
+      .details-container-content {
+        width: 75%;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 15px 15px;
+        position: relative;
+        padding-top: 30px;
+        border-radius: 8px;
+        z-index: 99s;
+      }
+
+      .closeDetails {
+        text-align: end;
+        position: absolute;
+        right: 40px;
+        padding: 4px;
+        top: 20px;
+        color: #67798e;
+        font-size: 2rem;
+        cursor: pointer;
+      }
+
+      .project-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .list-bg {
+        padding: 6px 10px;
+        font-family: Inter, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #3a4a42;
+        border: none;
+        background: #ebf0ee;
+        border-radius: 4px;
+      }
+
+      .list-position {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        list-style: none;
+      }
+
+      .buttons {
+        position: relative;
+        display: flex;
+      }
+
+      .card-languages {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap;
+        margin-top: 22px;
+        gap: 1rem;
+        border-bottom: 1px solid #ebecf0;
+        padding-bottom: 1rem;
+      }
+
+      .card-languages ul {
+        margin-top: -18px;
+      }
+
+      .c1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #344563;
+      }
+
+      .c2 {
+        color: #7a869a;
+      }
+
+      .headtitle {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        color: #091e42;
+      }
+
+      .headc {
+        margin-left: 1.5rem;
+      }
+
+      .description {
+        font-family: Inter, sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        color: #344563;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        max-height: 382px;
+        width: 100%;
+      }
+
+      .tech-and-buttons {
+        margin-left: 1rem;
+      }
+
+      .s1 {
+        display: flex;
+        flex-direction: row;
+        margin-top: -15%;
+      }
+
+      .language {
+        font-family: Inter, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #6070ff;
+        border: none;
+        background: #ebf0ee;
+        border-radius: 4px;
+        margin-right: 10px;
+        list-style: none;
+        padding: 4px 12px;
+        word-wrap: break-word;
+      }
+
+      .green-button {
+        background: #fff;
+        padding: 10px;
+        border: 1px solid #6070ff;
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        color: #396df2;
+        margin-top: 15px;
+        text-decoration: none;
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        width: 130px;
+        height: 40px;
+      }
+
+      .it {
+        margin-right: 12px;
+        margin-top: 2px;
+        font-size: 14px;
+      }
+
     #hamburger-icon {
         display: none;
     }
@@ -675,6 +1037,7 @@ p {
     }
 
     .header {
+        margin: 0;
         height: 916px;
         width: 100%;
         background: rgb(255, 255, 255);
@@ -818,21 +1181,31 @@ p {
         width: 100%;
     }
 
-    .work1 .card-work {
+    .card-work {
         display: flex;
         gap: 24px;
         margin: 0 auto;
         width: 90%;
-        height: 100%;
+        height: 400px;
         border-radius: 24px;
         padding: 16px;
         background: rgb(255, 255, 255);
         border: 2px solid rgb(218, 218, 218);
     }
 
+    .card-work1 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .card-work3 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .work1 .card-work .card-image {
         width: 100%;
-        height: 430px;
+        height: 100%;
         flex: 50%;
         border-radius: 8px;
     }
@@ -915,7 +1288,6 @@ p {
     .primary1 {
         margin-top: 0;
         width: 90%;
-        height: 50%;
         margin-left: 0;
         margin-bottom: 24px;
         font-size: 100%;
@@ -930,6 +1302,7 @@ p {
         list-style-type: none;
         margin: 0;
         padding: 0;
+        height: 40px;
         overflow: hidden;
     }
 
@@ -939,7 +1312,7 @@ p {
         margin-right: 8px;
         height: 24px;
         border-radius: 8px;
-        padding: 4px, 12px, 4px, 12px;
+        padding: 8px, 12px;
         background: rgb(235, 235, 255);
     }
 
@@ -967,6 +1340,7 @@ p {
         font-size: 19px;
         font-weight: 500;
         font-weight: medium;
+        cursor: pointer;
         line-height: 24px;
         letter-spacing: 0.03em;
         color: rgb(57, 109, 242);
@@ -1186,12 +1560,14 @@ p {
         margin-left: -24px;
     }
 
+    .contact-section {
+        margin-left: 0;
+    }
+
     .contact-me {
-        height: 779px;
+        height: 100%;
         width: 100%;
-        margin-top: -30px;
-        padding-top: 50px;
-        padding-left: 24px;
+        margin-left: 0;
         padding-right: 24px;
         text-align: center;
         border-top-left-radius: 80px;
@@ -1317,6 +1693,10 @@ p {
     .contact-me form .submit:hover {
         background: rgb(96, 112, 255);
         color: rgb(255, 255, 255);
+    }
+
+    #error-msg {
+        color: rgb(255, 0, 0);
     }
 
     .contact-me .bottom-rule {
