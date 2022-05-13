@@ -17,11 +17,11 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: '../images/Snapshoot.svg',
+      link: 'Snapshoot.svg',
       alt: 'Project Screenshot',
     },
     image1: {
-      link: '../images/card-work.svg',
+      link: 'card-work.svg',
       alt: 'card_wowrk',
     },
     liveSource: '#',
@@ -41,11 +41,11 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: '../images/Snapshoot1.svg',
+      link: 'Snapshoot1.svg',
       alt: 'Multi-Post Stories screenshot',
     },
     image1: {
-      link: '../images/card-work1.svg',
+      link: 'card-work1.svg',
       alt: 'card_wowrk',
     },
     liveSource: '#',
@@ -65,11 +65,11 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: '../images/Snapshoot2.svg',
+      link: 'Snapshoot2.svg',
       alt: 'Facebook 360screenshot',
     },
     image1: {
-      link: '../images/card-work3.svg',
+      link: 'card-work3.svg',
       alt: 'card_wowrk',
     },
     liveSource: '#',
@@ -89,11 +89,11 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: '../images/Snapshoot3.svg',
+      link: 'Snapshoot3.svg',
       alt: 'Uber Navigation screenshot',
     },
     image1: {
-      link: '../images/card-work4.svg',
+      link: 'card-work4.svg',
       alt: 'card_wowrk',
     },
     liveSource: '#',
@@ -111,9 +111,9 @@ function showDetails(projectIndex) {
     <h1 class= "headtitle">${projects[projectIndex].name}</h1>
     <div class="frame1">
             <p>${projects[projectIndex].place}</p>
-            <img src="../images/Counter.png" alt="counter" />
+            <img src="Counter.png" alt="counter" />
             <p class="p1">${projects[projectIndex].title}</p>
-            <img src="../images/Counter.png" alt="counter" />
+            <img src="Counter.png" alt="counter" />
             <p class="p1">${projects[projectIndex].year}</p>
           </div>
     <div class="closeDetails" id="closeDetails">&times;</div>
@@ -137,12 +137,12 @@ function showDetails(projectIndex) {
   projects[projectIndex].liveSource
 }" class="btn green-button">
 <div class ="it">See Live</div>
-<div class="image"><img src="../images/arrow.svg"></div>
+<div class="image"><img src="arrow.svg"></div>
  </a>
              <a href="${
   projects[projectIndex].sourceCode
 }" class="btn green-button"><div class ="it">See source</div>
-<div class="image"><img src="../images/github.svg"></div>
+<div class="image"><img src="github.svg"></div>
  </a>
           </div>
           </div>
@@ -171,9 +171,9 @@ for (let j = 0; j < projects.length; j += 1) {
           <h2 class="h2">${projects[j].name}</h2>
           <div class="frame1">
             <p class="c">${projects[j].place}</p>
-            <img src="../images/Counter.png" alt="counter">
+            <img src="Counter.png" alt="counter">
             <p class="p1">${projects[j].title}</p>
-            <img src="../images/Counter.png" alt="counter">
+            <img src="Counter.png" alt="counter">
             <p class="p1">${projects[j].year}</p>
           </div>
           <p class="primary1">
@@ -240,9 +240,9 @@ function showDetails1(projectIndex) {
     <h1 class= "headtitle">${projects[projectIndex].name}</h1>
     <div class="frame1">
             <p>${projects[projectIndex].place}</p>
-            <img src="../images/Counter.png" alt="counter" />
+            <img src="Counter.png" alt="counter" />
             <p class="p1">${projects[projectIndex].title}</p>
-            <img src="../images/Counter.png" alt="counter" />
+            <img src="Counter.png" alt="counter" />
             <p class="p1">${projects[projectIndex].year}</p>
     </div>
     <div class="closeDetails" id="closeDetails1">&times;</div>
@@ -266,12 +266,12 @@ function showDetails1(projectIndex) {
   projects[projectIndex].liveSource
 }" class="btn green-button">
 <div class ="it">See Live</div>
-<div class="image"><img src="../images/arrow.svg"></div>
+<div class="image"><img src="arrow.svg"></div>
  </a>
              <a href="${
   projects[projectIndex].sourceCode
 }" class="btn green-button"><div class ="it">See source</div>
-<div class="image"><img src="../images/github.svg"></div>
+<div class="image"><img src="github.svg"></div>
  </a>
           </div>
           </div>
