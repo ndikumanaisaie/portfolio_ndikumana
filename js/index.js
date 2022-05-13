@@ -17,7 +17,7 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: '../images/Snapshoot-portfolio.png',
+      link: '../images/Snapshoot.svg',
       alt: 'Project Screenshot',
     },
     image1: {
@@ -41,7 +41,7 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: '../images/Snapshoot-portfolio1.png',
+      link: '../images/Snapshoot1.svg',
       alt: 'Multi-Post Stories screenshot',
     },
     image1: {
@@ -65,7 +65,7 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: '../images/Snapshoot-portfolio2.png',
+      link: '../images/Snapshoot2.svg',
       alt: 'Facebook 360screenshot',
     },
     image1: {
@@ -89,7 +89,7 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: '../images/Snapshoot-portfolio3.png',
+      link: '../images/Snapshoot3.svg',
       alt: 'Uber Navigation screenshot',
     },
     image1: {
