@@ -61,7 +61,7 @@ body {
   }
 
   .details-container-content {
-    width: 70%;
+    width: 82%;
     margin: 20px auto;
     background-color: #fff;
     padding: 15px 15px;
@@ -140,6 +140,7 @@ body {
     color: #344563;
     margin-top: 20px;
     text-align: justify;
+    max-width: 80vw;
   }
 
   .tech-and-buttons {
@@ -870,7 +871,7 @@ p {
       }
 
       .details-container-content {
-        width: 80%;
+        width: 75%;
         margin: 20px auto;
         background-color: #fff;
         padding: 15px 15px;
@@ -1276,7 +1277,6 @@ p {
     .primary1 {
         margin-top: 0;
         width: 90%;
-        height: 50%;
         margin-left: 0;
         margin-bottom: 24px;
         font-size: 100%;

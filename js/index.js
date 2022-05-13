@@ -17,11 +17,11 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: './images/Snapshoot-portfolio.png',
+      link: '../images/Snapshoot-portfolio.png',
       alt: 'Project Screenshot',
     },
     image1: {
-      link: './images/card-work.svg',
+      link: '../images/card-work.svg',
       alt: 'card_wowrk',
     },
     liveSource: '#',
@@ -41,11 +41,11 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: './images/Snapshoot-portfolio1.png',
+      link: '../images/Snapshoot-portfolio1.png',
       alt: 'Multi-Post Stories screenshot',
     },
     image1: {
-      link: './images/card-work1.svg',
+      link: '../images/card-work1.svg',
       alt: 'card_wowrk',
     },
     liveSource: '#',
@@ -65,11 +65,11 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: './images/Snapshoot-portfolio2.png',
+      link: '../images/Snapshoot-portfolio2.png',
       alt: 'Facebook 360screenshot',
     },
     image1: {
-      link: './images/card-work3.svg',
+      link: '../images/card-work3.svg',
       alt: 'card_wowrk',
     },
     liveSource: '#',
@@ -89,11 +89,11 @@ const projects = [
     technologies: ['html', 'css', 'javascript'],
     technologies1: ['html', 'css', 'javascript', 'Ruby', 'github', 'Boostrap'],
     image: {
-      link: './images/Snapshoot-portfolio3.png',
+      link: '../images/Snapshoot-portfolio3.png',
       alt: 'Uber Navigation screenshot',
     },
     image1: {
-      link: './images/card-work4.svg',
+      link: '../images/card-work4.svg',
       alt: 'card_wowrk',
     },
     liveSource: '#',
@@ -180,9 +180,7 @@ for (let j = 0; j < projects.length; j += 1) {
             ${projects[j].card_description}
           </p>
           <ul>
-            <li><a href="#">html</a></li>
-            <li><a href="#">css</a></li>
-            <li><a href="#">javascript</a></li>
+          ${projects[j].technologies.map((lang) => `<li>${lang}</li>`).join('')}
           </ul>
           <p class="action details-btn" data-id="${
   projects[j].id
