@@ -18,13 +18,13 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **NDIKUMANA ISAIE**
 
 - GitHub: [gitHub](https://github.com/ndikumanaisaie)
 - Twitter: [twitter](https://twitter.com/Ndikuma38670724)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
-
+**JUSTIN IMASIKU**
 
 ## 🤝 Contributing
 
