@@ -291,3 +291,15 @@ showButton1.forEach((btn) => {
     showDetails1(event.target.dataset.id);
   });
 });
+
+// form validation
+document.getElementById('form').addEventListener('submit', (e) => {
+
+  if (emailValue === validate) {
+    emailError.textContent = '';
+    localStorage.removeItem('formData');
+  } else {
+    e.preventDefault();
+    emailError.textContent = '!Email should be typed in lowercase';
+  }
+});
