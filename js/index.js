@@ -292,14 +292,24 @@ showButton1.forEach((btn) => {
   });
 });
 
-// form validation
+let person = {};
+
 document.getElementById('form').addEventListener('submit', (e) => {
+  const nameValue = document.getElementById('name').value;
   const emailValue = document.getElementById('email').value;
+  const messageValue = document.getElementById('message').value;
+
+  person = {
+    name: nameValue,
+    email: emailValue,
+    message: messageValue,
+  };
+
   const emailError = document.getElementById('error-msg');
   const validate = emailValue.toLowerCase();
   if (emailValue === validate) {
     emailError.textContent = '';
-    localStorage.removeItem('formData');
+    localStorage.setItem('person', JSON.stringify(person));
   } else {
     e.preventDefault();
     emailError.textContent = '!Email should be typed in lowercase';
