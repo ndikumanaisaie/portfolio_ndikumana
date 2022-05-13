@@ -1695,6 +1695,10 @@ p {
         color: rgb(255, 255, 255);
     }
 
+    #error-msg {
+        color: rgb(255, 0, 0);
+    }
+
     .contact-me .bottom-rule {
         height: 5px;
         max-width: 134px;
