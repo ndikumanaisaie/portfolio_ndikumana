@@ -984,6 +984,7 @@ p {
       .s1 {
         display: flex;
         flex-direction: row;
+        margin-top: -15%;
       }
 
       .language {
@@ -1559,12 +1560,14 @@ p {
         margin-left: -24px;
     }
 
+    .contact-section {
+        margin-left: 0;
+    }
+
     .contact-me {
-        height: 779px;
+        height: 100%;
         width: 100%;
-        margin-top: -30px;
-        padding-top: 50px;
-        padding-left: 24px;
+        margin-left: 0;
         padding-right: 24px;
         text-align: center;
         border-top-left-radius: 80px;
