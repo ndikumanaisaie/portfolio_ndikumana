@@ -316,10 +316,10 @@ document.getElementById('form').addEventListener('submit', (e) => {
   }
 });
 
-const nameField = document.getElementById('name'); 
-const emailField = document.getElementById('email'); 
-const messageField = document.getElementById('message'); 
-const retrievedPerson = JSON.parse(localStorage.getItem('person')); 
-nameField.value = retrievedPerson.name; 
-emailField.value = retrievedPerson.email; 
-messageField.value = retrievedPerson.message; 
+const nameField = document.getElementById('name');
+const emailField = document.getElementById('email');
+const messageField = document.getElementById('message');
+const retrievedPerson = JSON.parse(localStorage.getItem('person'));
+nameField.value = retrievedPerson.name;
+emailField.value = retrievedPerson.email;
+messageField.value = retrievedPerson.message;
