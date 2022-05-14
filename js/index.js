@@ -321,7 +321,7 @@ const emailField = document.getElementById('mail');
 const messageField = document.getElementById('message');
 
 if (localStorage.getItem('person') !== null) {
-  const retrievedPerson = JSON.parse(localStorage.getItem('person'));
+  const retrievedPerson = JSON.parse(localStorage.getItem('peerson'));
   nameField.value = retrievedPerson.name;
   emailField.value = retrievedPerson.email;
   messageField.value = retrievedPerson.message;
