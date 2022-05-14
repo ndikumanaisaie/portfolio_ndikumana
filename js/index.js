@@ -307,7 +307,7 @@ document.getElementById('form').addEventListener('change', (e) => {
 
   const emailError = document.getElementById('error-msg');
   const validate = emailValue.toLowerCase();
-  if (emailValue === validate) {
+  if (emailValue == validate) {
     emailError.textContent = '';
     localStorage.setItem('person', JSON.stringify(person));
   } else {
@@ -317,7 +317,7 @@ document.getElementById('form').addEventListener('change', (e) => {
 });
 
 const nameField = document.getElementById('name');
-const emailField = document.getElementById('email');
+const emailField = document.getElementById('mail');
 const messageField = document.getElementById('message');
 
 if (localStorage.getItem('person') !== null) {
