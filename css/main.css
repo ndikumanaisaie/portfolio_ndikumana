@@ -817,6 +817,7 @@ p {
         display: flex;
         flex-direction: row;
         margin-top: -16%;
+
       }
 
       .language {
@@ -1382,6 +1383,7 @@ p {
 
     .contact-section {
         margin-left: 0 auto;
+
     }
 
     .contact-me {
@@ -1512,6 +1514,10 @@ p {
     .contact-me form .submit:hover {
         background: rgb(96, 112, 255);
         color: rgb(255, 255, 255);
+    }
+
+    #error-msg {
+        color: rgb(255, 0, 0);
     }
 
     .contact-me .bottom-rule {
