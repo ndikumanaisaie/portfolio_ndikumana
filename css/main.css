@@ -984,6 +984,7 @@ p {
       .s1 {
         display: flex;
         flex-direction: row;
+        margin-top: -116px;
       }
 
       .language {
@@ -1702,7 +1703,3 @@ p {
         background: rgb(13, 21, 30);
     }
 }
-
-/* end of styles for desktop version */
-
-/* styles for mobile version */
