@@ -3,7 +3,7 @@
 # My portfolio
 
 > Hi! My name is NDIKUMANA ISAIE, I am a front end developper. I have experience in HTML5, CSS3 and JAVASCRIPT. Curently
-> a full-time student at microverse to become a FullStack Web developper.
+> a full-time student at microverse to become a FullStack Web developper. This is my portfolio website which includes all my experience and projects that i have done before.
 
 ![Portfolio Image](https://github.com/ndikumanaisaie/portfolio_ndikumana/blob/main/images/shot.png)
 
